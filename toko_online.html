@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link href="/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Global Buku.edu</title>
+    
+  </head>
+  <body>
+    <!-- membuat navbar dan isinya -->
+                                                               <!-- fixed-top dapat kita jumpai di 'position'  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+        <div class="container">
+            <!-- bagian font awesome logo -->
+            <!-- mr-2 digunakan untuk memberi jarak margin ke kanan berjarak 2,jika ml-2 memberi jarak ke kiri berjarak 2 -->
+            <!-- bisa menggunakan p-2 atau mr-2 atau ml-2 -->
+            <h3><i class="fas fa-building text-light mr-2"></i></h3>
+                        <!-- ini bagian text WegoWego -->
+                        <!-- p-2 digunakan untuk memberi sebuah jarak pada bagian 'flex'-->
+                        <!-- font-weight-bold untuk menebalkan tulisan,dapat dijumpai di 'text' -->
+        <a class="navbar-brand font-weight-bold" href="#">Global Buku.edu</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <!-- ini bagian beberapa navbar lainya -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- ml-auto digunakan untuk memindah bidang yang diinginkan menuju kiri atau bagian kanan user -->
+          <!-- mr-4 digunakan untuk menggeser bidang ke kanan berjarak 4 -->
+          <ul class="navbar-nav ml-auto mr-4">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Reseller <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Hubungi <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Kami <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">bantuan <span class="sr-only">(current)</span></a>
+            </li>     
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          
+          <div class="icon ">
+          <h5>
+                                                                  <!--tooltip digunakan untuk memberikan sebuah pesan -->
+          <a href=""> <i class="fas fa-shopping-cart mr-2 ml-3" data-toggle="tooltip" title="Keranjang Belanja"></i></a>
+          <a href=""> <i class="far fa-bell mr-2 " data-toggle="tooltip" title="Notifikasi"></i></a>
+          <a href=""> <i class="fas fa-envelope mr-2" data-toggle="tooltip" title="Pesan Pembelian"></i></a>
+          </h5>
+          </div>
+        </div>
+    </div>
+      </nav>
+      <!-- mengakhiri navbar dan isinya -->
+
+      <!-- awal dari side bar dan carousel -->
+      <!-- mt : margin-top,mb:margin-bottom,mr:margin-right,ml:margin-left -->
+
+                          <!-- jadi no-gutters ini digunakan untuk menyusutkan background yang dipasang di dalam list ini -->
+      <div class="row mt-5 no-gutters">
+
+        <!-- awal dari side bar right -->
+        <div class="col-md-2 bg-light ">
+                                        <!-- list-group-flush digunakan untuk menghapus garis pada box list dapat ditemukan pada list-group-->
+          <ul class="list-group p-1 pt-3 list-group-flush hover-kategori">
+            <li class="list-group-item font-weight-bold bg-warning"><i class="fas fa-list"> <span class="ml-2">Kategori Buku</span> </i></li>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right "></i><span class="ml-2"> Fiksi </span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"> Informatif </span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Memasak</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Motivasi</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Religi</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Teknologi</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Siswa/Mahasiswa</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Sejarah</span></li></a>
+            <a href="" class="text-dark"><li class="list-group-item"><i class="fas fa-angle-right"></i><span class="ml-2"></span>Filsafat</span></li></a>
+          </ul>
+        </div>
+        <!-- akhir dari side bar right -->
+        
+        <!-- awal dari carousel -->
+          <div class="col-md-10">
+
+            <!-- ini bagian caroesul -->
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="slide/slide_1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="slide/slide_2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="slide/slide_3.jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!-- akhir caroesoul -->
+            <div class="hover-to-hr">
+            <h3 class="text-center font-weight-bold mt-4">Produk Terbaru</h3>
+            <hr>
+          </div>
+                                    <!-- d-flex justify-content-center digunakan untuk membuat konten menjadi ke tengah apabila dengan ukuran handphone -->
+            <div class="row mx-auto d-flex justify-content-center">
+
+              <div class="card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Bob Sadino - 36 Langkah Sukses Membangun Bisnis</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <p class="card-text">
+                    Ukuran 14 x 20 cm<br>174 halaman<br>ISBN : 978-602-5713-06-4<br>Penerbit : Genesis,2017<br>Stok : 99 <br> <span class="text-danger">Rp 59.000,00</span>
+                  </p>
+                  
+                  <a href="#" class="btn btn-warning mt-5" data-target="#produk-motivasi-1" data-toggle="modal">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-5">Beli</a>
+                
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Sukarno - Biografi Lengkap Negarawan Sejati</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 14 x 20 cm<br>399 halaman<br>ISBN : 978-602-5448-94-2<br>Penerbit : KLIK MEDIA,2018<br>Stok : 99 <br><span class="text-danger">Rp 26.400,00</p></span>
+                  <a href="#" class="btn btn-warning mt-5">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-5">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Coding Mudah dengan CodeIgniter, JQuery, Bootstrap, dan Datatable</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran - <br>208 halaman<br>ISBN : 978-602-0476-88-9<br>Penerbit : Informatika,2018<br>Stok : 99 <br><span class="text-danger"> Rp 54.800</span></p>
+                  <a href="#" class="btn btn-warning mt-4">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-4">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar4.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">CONFIDENT CODING - Master The Fundamentals of Code  </h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 15,6 x 21 cm<br>272 halaman<br>ISBN : 978-074-9479-63-3<br>Penerbit : Kogan Page Ltd,2018<br>Stok : 99 <br><span class="text-danger"> 190.000,00</span></p>
+                  <a href="#" class="btn btn-warning mt-4">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-4">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar5.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Novel-Anak Rantau</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 14 x 20,5 cm<br>382 halaman<br>ISBN : 978-602-6051-49-3<br>Penerbit : PT Falcon,2017<br>Stok : 99 <br><span class="text-danger"> 90.000,00</span></p>
+                  <a href="#" class="btn btn-warning mt-5">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-5">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar6.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Loving Cooking</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 14 x 20 cm<br>174 halaman<br>ISBN : 978-602-5713-06-4<br>Penerbit : Genesis,2017<br>Stok : 99 <br><span class="text-danger">Rp 116.875,00</span></p>
+                  <a href="#" class="btn btn-warning mt-5">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-5">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">Masakan Dan Kue Indonesia</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 14 x 20 cm<br>174 halaman<br>ISBN : 978-602-5713-06-4<br>Penerbit : Genesis,2017<br>Stok : 99 <br><span class="text-danger">100.000,00</span></p>
+                  <a href="#" class="btn btn-warning mt-4">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-4">Beli</a>
+                </div>
+              </div>
+
+              <div class="card card ml-4 mr-2 mb-2" style="width: 16rem;">
+                <img src="gambar_produk/gambar8.jpeg" class="card-img-top" alt="...">
+                <div class="card-body bg-light mt-1">
+                  <h5 class="card-title">40 Resep Makanan Sehari - hari</h5>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <p class="card-text">Ukuran 14 x 20 cm<br>174 halaman<br>ISBN : 978-602-5713-06-4<br>Penerbit : Genesis,2017<br>Stok : 99 <br><span class="text-danger"> 100.000,00</span></p>
+                  <a href="#" class="btn btn-warning mt-4">Sipnosis</a>
+                  <a href="#" class="btn btn-success mt-4">Beli</a>
+                </div>
+              </div>
+
+              
+            </div>
+            <!--  -->
+            <div class="modal fade" id="produk-motivasi-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sipnosis</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body row">
+
+                    <div class="col-md-4">
+                      <img src="gambar_produk/gambar1.jpeg" alt="">
+                    </div>
+
+                    <div class="col-md-8">
+                      <h5 class="font-weight-bold"></h5>
+                      <p class="text-justify">
+                       
+                      </p>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+                        <button type="button" class="btn btn-success">Beli</button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+          </div>
+        <!-- akhir dari carousel -->          
+        </div>
+      <!-- akhir dari bagian carousel dan bar samping -->
+
+      <!-- Footer -->
+      <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div class="bg-dark">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0 text-warning">Hubungi Sosial Media Kami!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a href="" class="fb-ic ">
+            <i class="fab fa-facebook-f white-text mr-4 text-warning "> </i>
+          </a>
+          <!-- Twitter -->
+          <a href="" class="tw-ic">
+            <i class="fab fa-twitter white-text mr-4 text-warning"> </i>
+          </a>
+          <!-- Google +-->
+          <a href="" class="gplus-ic">
+            <i class="fab fa-google-plus-g white-text mr-4 text-warning"> </i>
+          </a>
+          <!--Linkedin -->
+          <a href="" class="li-ic">
+            <i class="fab fa-linkedin-in white-text mr-4 text-warning"> </i>
+          </a>
+          <!--Instagram-->
+          <a href="" class="ins-ic">
+            <i class="fab fa-instagram white-text text-warning"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 hover-to-hr">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold ">Layanan Pelanggan</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" >
+        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 hover-to-hr">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Mitra Kerjasama</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" >
+        <p>
+          <a href="#!">MDBootstrap</a>
+        </p>
+        <p>
+          <a href="#!">MDWordPress</a>
+        </p>
+        <p>
+          <a href="#!">BrandFlow</a>
+        </p>
+        <p>
+          <a href="#!">Bootstrap Angular</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 hover-to-hr">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" >
+        <p>
+          <a href="#!">Your Account</a>
+        </p>
+        <p>
+          <a href="#!">Become an Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Shipping Rates</a>
+        </p>
+        <p>
+          <a href="#!">Help</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 hover-to-hr">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" >
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-dark"><span class="text-light">© 2020 Copyright:</span>
+    <a href="https://mdbootstrap.com/"> Global Buku.edu</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+      <!-- Akhir Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+hr{
+    width: 10%;
+    border: 2px solid yellow;
+    transition: 1s;
+}
+
+.hover-to-hr:hover hr{
+    width: 40%;
+    transition: 2s;
+}
+
+.row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.fa-star,.fa-star-half-alt{
+    color: yellow;
+}
+
+.fa-facebook-f:hover,.fa-twitter:hover,.fa-google-plus-g:hover,.fa-linkedin-in:hover,.fa-instagram:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+.hover-kategori li:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+
+.hover-kategori a li:hover a{
+    text-decoration: none;
+}
+
